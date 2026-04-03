@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caryl Atienza</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/418eb8c512.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <div id = "header">
+        <div class="container">
+
+            <nav>
+                <img src = "images/logo.png" class = "logo">
+                <ul>
+                    <li><a href = "#header">Home</a></li>
+                    <li><a href = "#about">About</a></li>
+                    <li><a href = "#services">Services</a></li>
+                    <li><a href = "#portfolio">Portfolio</a></li>
+                    <li><a href = "#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class = "header-text">
+                <h1>Hello!</h1>
+                <h1>I'm <span>Caryl Atienza</span></h1>
+                <p>Aspiring Full-Stack Developer</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id = "about">
+        <div class="container">
+            <div class = "row">
+                <div class="about-col-1">
+                    <img src = "images/Shark.png">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class = "sub-title">About Me</h1>
+                    <p>I’m a graphic designer with 6 years of experience in the esports industry, where I’ve built a strong creative foundation through visual storytelling and digital design. As I continue my journey in college, I’m now exploring the world of technology—blending creativity with innovation as I navigate toward a future in tech.</p>
+
+                    <div class="tab-titles">
+                        <p class = "tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class = "tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class = "tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX Design</span><br>Crafting clean, functional, and engaging digital experiences</li>
+                            <li><span>Graphic Design</span><br>Bringing your vision to life with creative visuals</li>
+                            <li><span>Web Development</span><br>Turning designs into fully responsive web experiences</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2025 - Current</span><br>UI/UX Cadet in Google Developer Groups on Campus - PUP</li>
+                            <li><span>2025 - Current</span><br>AI & ML Associate in AWS Cloud Club - PUP</li>
+                            <li><span>2025</span><br>Graphic Designer at MPL Philippines</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>Regional Science High School for MIMAROPA</li>
+                            <li><span>2024 - Current</span><br>Polytechnic University of the Philippines</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+     <div id="services">
+        <div class="container">
+            <h1 class = "sub-title">My Services</h1>
+            
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX</h2>
+                    <p>Designing intuitive, user-centered interfaces that balance functionality, clarity, and visual appeal for seamless digital experiences.</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Graphic Design</h2>
+                    <p>Creating impactful visuals that bring ideas to life through strong branding, compelling layouts, and purposeful design.</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Building responsive, modern websites that combine clean code, smooth performance, and engaging user experiences.</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+            </div>
+
+        </div>
+     </div>
+
+     <!-- Portfolio Section -->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class = "sub-title">My Work</h1>
+            
+            <div class="work-list">
+                <div class="work">
+                    <img src = "images/work-1.png">
+                    <div class="layer">
+                        <h3>ReadiLY</h3>
+                        <p>ReadiLY is an AI-powered oral reading intelligence system that helps teachers instantly assess, diagnose, and support students using just a smartphone. From manual assessment to real-time insights—ReadiLY empowers teachers to reach every learner, not just the ones they have time for.</p>
+                        <a href="https://www.youtube.com/watch?v=zipjLWZGrcY&t=1s"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src = "images/work-2.png">
+                    <div class="layer">
+                        <h3>MPL Philippines Season 15</h3>
+                        <p>The Mobile Legends: Bang Bang Professional League Philippines, commonly known as MPL Philippines, is the premier professional esports league in the Philippines for the multiplayer online battle arena game Mobile Legends: Bang Bang.</p>
+                        <a href="https://www.behance.net/gallery/229173039/MPL-Philippines-Season-15"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src = "images/work-3.png">
+                    <div class="layer">
+                        <h3>Caryl Creatives Rebrand</h3>
+                        <p>A personal rebrand project focused on redefining my creative identity through a refreshed visual style, stronger branding, and a more intentional design direction.</p>
+                        <a href="https://www.behance.net/gallery/244466071/Caryl-Creatives-Rebrand"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class = "btn">See More</a>
+
+        </div>
+      </div>
+
+    <!-- Contact Section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class = "sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>carylatienzaa@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+63 969 048 1894</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/carylatienzaa/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/carylatienzaa/ "><i class="fa-brands fa-instagram"></i></i></a>
+                        <a href="https://github.com/carylatienza "><i class="fa-brands fa-github"></i></i></a>
+                        <a href="https://www.linkedin.com/in/carylatienzaa/"><i class="fa-brands fa-square-linkedin"></i></i></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Finally, I made something yippie!</p>
+        </div>
+    </div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+</body>
+</html>
